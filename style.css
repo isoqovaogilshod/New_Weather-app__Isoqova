@@ -203,7 +203,7 @@ body {
 
   .search-input {
     position: absolute;
-    top: -435px;
+    top: -335px;
     right: 30px;
   }
   .search input {
@@ -223,7 +223,8 @@ body {
   }
 
   .temperature-country {
-    margin-top: 210px;
+    margin-top: 110px;
+    margin-left: 7px;
   }
 
   .temperature-country .temperature h2 {
@@ -243,19 +244,20 @@ body {
   }
 
   .weather-infos {
-    height: 78.8vh;
+    height: 56vh;
   }
   .weather-infos p {
     font-size: 18px;
-    margin-top: 107px;
+    margin-top: 40px;
   }
 
   .details {
-    margin-top: 25px;
+    margin-top: 5px;
   }
 
   .details .thunderstorm {
     font-size: 18px;
+    margin-top: 20px;
   }
 
   .info {
@@ -272,6 +274,9 @@ body {
     font-size: 18px;
   }
 
+  .info-box {
+    row-gap: 24px;
+  }
   .line {
     margin-bottom: 90px;
   }
@@ -305,16 +310,33 @@ body {
     padding: 54px 100px 125px 55px;
     height: 100vh;
   }
+
+  .weather-infos p {
+    margin-top: 90px;
+    margin-right: 260px;
+    font-size: 20px;
+  }
   .search-input {
     position: absolute;
     top: 30px;
     right: 100px;
   }
   .search input {
-    width: 410px;
+    width: 420px;
     font-size: 20px;
+    padding-bottom: 18px;
   }
 
+  .details {
+    margin-top: 45px;
+  }
+  .thunderstorm {
+    margin-right: 60px;
+  }
+
+  .info-box {
+    row-gap: 30px;
+  }
   .search input::placeholder {
     font-size: 20px;
   }
@@ -342,11 +364,15 @@ body {
     font-size: 143px;
   }
 
-  .country-time h3{
+  .country-time h3 {
     font-size: 60px;
   }
 
-  .country-time p{
+  .country-time p {
     font-size: 18px;
+  }
+
+  .line{
+    max-width: 500px;
   }
 }
